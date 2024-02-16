@@ -1,5 +1,3 @@
-import video from "../assets/videos/[FREE - HDconvert.com] 1104374_1080p_4k_2k_3840x2160.mp4";
-import video2 from "../assets/videos/1104374_1080p_4k_2k_3840x2160.mp4";
 const Banner = () => {
   return (
     <div>
@@ -10,8 +8,10 @@ const Banner = () => {
           loop
           muted
         >
-          <source src={video2} type="video/mp4" />
-          Your browser does not support the video tag.
+          <source
+            src="https://24carrots.com/wp-content/video/24carrtos-home-banner.mp4"
+            type="video/mp4"
+          />
         </video>
         <div className="bg-opacity-60"></div>
         <div className="hero-content text-center text-white z-10">

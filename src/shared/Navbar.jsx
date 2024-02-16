@@ -42,7 +42,7 @@ const Navbar = () => {
           <li className="text-3xl mx-28 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-gray-100" : ""
+                isPending ? "pending" : isActive ? "text-[#1a4122]" : ""
               }
             >
               <p className="text-center">
