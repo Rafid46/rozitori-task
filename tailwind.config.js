@@ -5,8 +5,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: "'Poppins', sans-serif",
-        playFair: "'Playfair Display', serif",
         caslon: "'Libre Caslon Display', serif",
         kumbh: "'Kumbh Sans', sans-serif",
       },
