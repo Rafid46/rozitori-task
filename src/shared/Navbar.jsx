@@ -12,7 +12,7 @@ const Navbar = () => {
     <div>
       <div className="">
         <nav className="flex flex-col md:flex-row lg:flex-row items-center justify-between font-poppins">
-          <li className="tracking-[2px] text-md mr-10 font-medium text-[#1a4122]">
+          <li className="tracking-[2px] text-md mr-0 lg:mr-10 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-gray-800" : ""
@@ -21,7 +21,7 @@ const Navbar = () => {
               ABOUT
             </NavLink>
           </li>
-          <li className="tracking-[2px] text-md mr-10 font-medium text-[#1a4122]">
+          <li className="tracking-[2px] text-md mr-0 lg:mr-10 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-gray-800" : ""
@@ -30,7 +30,7 @@ const Navbar = () => {
               SERVICES
             </NavLink>
           </li>
-          <li className="tracking-[2px] text-md mr-10 font-medium text-[#1a4122]">
+          <li className="tracking-[2px] text-md mr-0 lg:mr-10 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-gray-800" : ""
@@ -39,7 +39,7 @@ const Navbar = () => {
               EVENTS
             </NavLink>
           </li>
-          <li className="text-3xl mx-28 font-medium text-[#1a4122]">
+          <li className="text-3xl mx-0 lg:mx-28 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-[#1a4122]" : ""
@@ -55,7 +55,7 @@ const Navbar = () => {
               </p>
             </NavLink>
           </li>
-          <li className="tracking-[2px] text-md mr-10 font-medium text-[#1a4122]">
+          <li className="tracking-[2px] text-md mr-0 lg:mr-10 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-gray-800" : ""
@@ -64,7 +64,7 @@ const Navbar = () => {
               VENUE
             </NavLink>
           </li>
-          <li className="tracking-[2px] text-md mr-10 font-medium text-[#1a4122]">
+          <li className="tracking-[2px] text-md mr-0 lg:mr-10 font-medium text-[#1a4122]">
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-gray-800" : ""

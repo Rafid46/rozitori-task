@@ -16,7 +16,7 @@ const Banner = () => {
         <div className="bg-opacity-60"></div>
         <div className="hero-content text-center text-white z-10">
           <div className="">
-            <h1 className="mb-5 text-9xl font-caslon font-medium tracking-[2px]">
+            <h1 className="mb-5 text-5xl lg:text-9xl font-caslon font-medium tracking-[2px]">
               Simply the finest
             </h1>
           </div>
