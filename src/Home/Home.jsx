@@ -5,6 +5,8 @@ import { IoIosArrowUp } from "react-icons/io";
 import Magical from "../Components/Magical";
 import Unforgettable from "../Components/Unforgettable";
 import Gallery1 from "../Components/Gallery1";
+import FarMore from "../Components/FarMore";
+import AutoSlide from "../Components/AutoSlide";
 
 const Home = () => {
   const [topButton, setTopButton] = useState(false);
@@ -37,8 +39,14 @@ const Home = () => {
       <div className="mt-32">
         <Gallery1></Gallery1>
       </div>
-      <div className="my-20">
+      <div className="my-20 mb-[400px]">
         <Unforgettable></Unforgettable>
+      </div>
+      <div className="my-10">
+        <FarMore></FarMore>
+      </div>
+      <div className="my-10">
+        <AutoSlide></AutoSlide>
       </div>
       {topButton && (
         <div className="flex items-center justify-center">
