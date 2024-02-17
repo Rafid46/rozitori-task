@@ -1,11 +1,11 @@
 const Magical = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="flex items-center justify-center">
-        <div className="mr-20">
+      <div className="flex flex-col lg:flex-row items-center justify-center">
+        <div className="mr-0 lg:mr-20">
           <img
             loading="lazy"
-            className="w-[500px] object-cover object-center rounded-tl-full rounded-tr-full"
+            className="w-[300px] lg:w-[500px] object-cover object-center rounded-tl-full rounded-tr-full rounded-bl-full lg:rounded-bl-none rounded-br-full lg:rounded-br-none"
             src="https://24carrots.com/wp-content/uploads/2023/08/wedding-scroll-cropped.jpg"
             alt=""
           />

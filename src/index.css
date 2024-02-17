@@ -8,7 +8,6 @@
   letter-spacing: 1px;
   transition: all 0.2s linear;
   cursor: pointer;
-  border: none;
 }
 
 .batton > .svg {
@@ -21,4 +20,20 @@
 
 .batton:hover {
   transform: translateY(2px);
+}
+
+.swiper {
+  width: 70%;
+  height: 70%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
